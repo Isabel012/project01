@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	/* 列表样式设置 */
+	list-style: none;
+}
+.main{
+	width: 100%;
+	height: 602px;
+	background-image: linear-gradient(#fbbdba,#fbe1cc);
+	overflow: hidden;
+}
+.top{
+	width: 100%;
+	height: 65px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: lighter;
+	background-color: #ff546d;
+	line-height: 88px;
+	overflow: hidden;
+}
+.top p{
+	position: absolute;
+	left: 170px;
+}
+.login_in{
+	width: 72%;
+	margin: 0 auto;
+}
+
+.top .icon{
+	float: left;
+	width: 10px;
+	height: 18px;
+	margin-left: 15px;
+	margin-top: 35px;
+}
+.logo{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.logo img{
+	width: 67px;
+	height: 67px;
+	display: block;
+	margin: 0 auto;
+}
+.phone{
+	height: 40px;
+	background-color: #FFFFFF;
+	margin-bottom: 22px;
+}
+.phone img{
+	width: 12px;
+	height: 15px;
+	padding-top: 13px;
+	padding-left: 15px;
+	float: left;
+}
+.phone input{
+	height: 100%;
+	background: none;
+	border: none;
+	margin-left: 13px;
+	font-size: 12px;
+	color: #666;
+}
+.phone_0{
+	width: 100%;
+	height:40px ;
+	background-color: none;
+	margin-bottom: 22px;
+}
+.phone_0 ul{
+	display: flex;
+	justify-content: space-between;
+}
+.phone_0 .yzm{
+	width: 160px;
+	height: 40px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.phone_0 .yzm img{
+	width: 12px;
+	height: 15px;
+	padding-top: 13px;
+	padding-left: 15px;
+	float: left;
+}
+.phone_0 .yzm input{
+	height: 100%;
+	background: none;
+	border: none;
+	margin-left: 13px;
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	
+}
+.phone_0 .hq{
+	width: 102px;
+	height: 40px;
+	background-color: #FF546D;
+}
+.phone_0 .hq button{
+	border: none;
+	background-color:#FF546D;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+.phone_1{
+	height: 40px;
+	background-color: #FFFFFF;
+	margin-bottom: 22px;
+}
+.phone_1 .icon1{
+	float: left;
+	width: 13px;
+	height: 15px;
+	margin-left: 15px;
+	margin-top: 13px;
+}
+.phone_1 .icon2{
+	float: right;
+	width: 18px;
+	height: 10px;
+	margin-right: 12px;
+	margin-top: 15px;
+}
+.phone_1 input{
+	height: 100%;
+	background: none;
+	border: none;
+	margin-left: 13px;
+	font-size: 12px;
+	color: #666;
+}
+.btn .btn2{
+	margin-top: 18px;
+}
+.btn button{
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #FF546D;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: lighter;
+	border-radius: 25px;
+}
+.third p{
+	font-size: 12px;
+	color: #FF546D;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 53px;
+	margin-bottom: 35px;
+}
+.footer{
+	width: 57%;
+	margin: 0 auto;
+}
+.footer ul{
+	display: flex;
+	justify-content: space-between;
+}
+.footer li img{
+	width: 30px;
+	height: 30px;
